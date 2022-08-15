@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inputs Basicos</title>
+    <style>
+        section{
+            border: 1px solid #000;
+            padding: 10px;
+        }
+    </style>
+</head>
+
+<body>
+    <section>
+        <h1>Inputs Basicos</h1>
+    </section>
+
+<hr>
+
+    <section>
+        <form action="inputs_basicos.html" method="post">
+
+            <label>Nome:</label> <br>
+            <input type="text" name="nome" placeholder="Insira seu nome">
+
+            <br><br>
+
+            <label>Senha:</label> <br>
+            <input type="password" placeholder="Insira sua senha">
+
+            <br><br>
+
+            <label>Time:</label> <br>
+            <input type="text" placeholder="Insira seu time" list="lista_times">
+            <datalist id="lista_times">
+                <option value="Vasco">
+                <option value="Flamengo">
+                <option value="Santos">
+                <option value="Palmeiras">
+                <option value="Botafogo">
+            </datalist>
+
+            <br><br>
+
+            <label>Options:</label><br>
+            <input type="radio" name="opcao" id="">A
+            <input type="radio" name="opcao" id="">B
+            <input type="radio" name="opcao" id="">C
+
+            <br> <br>
+
+            <label>Multipla Escolha:</label> <br>
+            <input type="checkbox" name="" id="">1
+            <input type="checkbox" name="" id="">2
+            <input type="checkbox" name="" id="">3
+
+            <br> <br>
+
+            <label>Texto:</label> <br>
+            <textarea name="texto" id="" cols="30" rows="10"></textarea>
+
+            <br> <br>
+
+            <label>Arquivo:</label> <br>
+            <input type="file" name="arquivo" id="">
+            <br><br>
+
+            <label>Sexo:</label> <br>
+            <select name="" id="">
+                <option value="">Selecione</option>
+                <option value="M">Masculino</option>
+                <option value="F">Feminino</option>
+                <option selected value="n">Prefiro não opinar</option>
+                <!-- selected faz com que a opição ja venha selecionado -->
+            </select>
+
+            <br><br>
+            <label>Carros:</label> <br>
+            <select name="carros" id="">
+                <optgroup label="alemães">
+                    <option value="mercedes">mercedes</option>
+                    <option value="audi">audi</option>
+                </optgroup>
+                <optgroup label="Suecos">
+                    <option value="volvo">volvo</option>
+                    <option value="saap">saap</option>
+                </optgroup>
+
+            </select>
+
+
+
+
+
+
+
+            <br><br><br>
+            <input type="button" value="Botão sem ação">
+            <input type="submit" value="Enviar!"> <br><br>
+
+        </form>
+    </section>
+
+
+
+
+
+</body>
+
+</html>
