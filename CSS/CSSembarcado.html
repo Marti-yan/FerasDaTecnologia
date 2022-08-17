@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exemplo 2 - CSS</title>
+    <style>
+        body{
+            background-color: rgb(235, 101, 101);
+        }
+        h1{
+            color: red;
+            font-size:45px;
+        }
+        input{
+            display: block;
+            margin-bottom:20px;
+            background-color: rgb(0, 255, 17);
+        }
+        label{
+            font-weight: bold;
+            text-transform: uppercase;
+        }
+        .tracejado{
+            border: dashed 2px #000;
+            background-color: rgb(15, 0, 130);
+        }
+        #campo_email{
+            height:45px;
+            background-color:#d40233;
+        }
+        #box{
+            width: 400px;
+            height: 400px;
+            background-color:rgba(4, 255, 0, 0.415);
+            position:absolute;
+            top:0;
+        }
+    </style>
+</head>
+<body>
+    <h1>Exemplo CSS 2</h1>
+    <form action="">
+
+        <label>Nome</label> 
+        <input type="text" name="nome">
+        
+        
+        <label>email</label> 
+        <input type="email" name="email" class="tracejado" id="campo_email">
+           
+
+        <label>senha</label> 
+        <input type="password" name="senha" class="tracejado">
+        
+
+    </form>
+
+    <div id="box"></div>
+</body>
+</html>
