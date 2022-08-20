@@ -1,0 +1,28 @@
+h1{
+    text-align: center;
+}
+body{
+    background-color:rgb(121, 121, 121);
+}
+#linha1{
+    display: flex;
+    flex-direction: row;  /*  row-reverse coloca na oredem de trás para frente!  */
+    height:300px;
+    background-color: rgb(162, 162, 162);
+    
+}
+
+#linha1 > div {
+    background-color:aquamarine;
+    width: 25%;
+    padding:1%;
+    height: 200px;
+    align-self: center;
+    border: solid 1px #000; 
+    
+    
+}
+
+#noticia2{
+    flex-grow: 2;
+}

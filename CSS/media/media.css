@@ -1,0 +1,15 @@
+#box{
+background-color: blue;
+width: 200px;
+height: 200px;
+}
+
+@media screen and (max-width:600px){
+
+    #box{
+        background-color:red;
+        border-radius:100px;
+
+    }
+
+}
