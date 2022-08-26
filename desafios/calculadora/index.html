@@ -8,45 +8,42 @@
     <title>calculadora</title>
 </head>
 <body>
-    
+    <br><br>
 <section>
     <br>
-    <div id="res">RESULTADO:</div>
+    <div id="divres">
+        <span ><sub id="conta"></sub></span>
+        <br>
+        <span id="res"></span>
+    </div>
     <br>
     <div id="divbuttons">
-        <button>7</button>
-        <button>8</button>
-        <button>9</button>
-        <button class="especial">÷</button>
-        <button>4</button>
-        <button>5</button>
-        <button>6</button>
-        <button class="especial">-</button>
-        <button>1</button>
-        <button>2</button>
-        <button>3</button>
-        <button class="especial">-</button>
-        <button>,</button>
-        <button>0</button>
-        <button class="especial">=</button>
-        <button class="especial">+</button>
+        <button class="btn" onclick="excluir()">C</button>
+        <button class="btn" onclick="apagar()"> > </button>
+
+        <button onclick="res1(7)">7</button>
+        <button onclick="res1(8)">8</button>
+        <button onclick="res1(9)">9</button>
+        <button onclick="res1(' / ')" class="especial">÷</button>
+
+        <button onclick="res1(4)">4</button>
+        <button onclick="res1(5)">5</button>
+        <button onclick="res1(6)">6</button>
+        <button onclick="res1(' * ')" class="especial">*</button>
+
+        <button onclick="res1(1)">1</button>
+        <button onclick="res1(2)">2</button>
+        <button onclick="res1(3)">3</button>
+        <button onclick="res1(' - ')" class="especial">-</button>
+
+        <button onclick="res1(',')">,</button>
+        <button onclick="res1(0)">0</button>
+        <button onclick="calcular()"  class="especial">=</button>
+        <button onclick="res1(' + ')" class="especial">+</button>
         
     </div>
     <br>
 </section>
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
     <script src="script.js"></script>
