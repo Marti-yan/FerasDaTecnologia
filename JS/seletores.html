@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Seletores</title>
+    <style>
+        #box {
+            background-color: #232323;
+            width: 200px;
+            height: 200px;
+            padding:20px;
+            color: #fff;
+        }
+
+        .paragrafo{
+            background-color:chartreuse;
+            font-size:18px;
+            padding:20px;
+        }
+    </style>
+
+    <script>
+        function acionar(){
+            document.getElementById("box").style.backgroundColor = "blue"
+            document.getElementById("box").style.textAlign = "Center"
+            document.getElementById("box").style.border = "3px solid black"
+
+
+            document.getElementsByClassName("paragrafo")[1].style.backgroundColor = "red"
+
+        }
+    </script>
+
+</head>
+<body>
+    <h1>seletores</h1>
+    <div id="box">
+
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium dolorem debitis labore a eius, quasi modi iusto cumque. Hic, natus voluptatibus! Obcaecati eveniet ducimus non ex assumenda facilis adipisci officia?
+
+    </div>
+    <input type="button" value="acionar" onclick="acionar()">
+
+    <p class="paragrafo">paragrafo 1</p>
+    <p class="paragrafo">paragrafo 2</p>
+    <p class="paragrafo">paragrafo 3</p>
+
+</body>
+</html>
