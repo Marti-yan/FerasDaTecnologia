@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./CSS/login.css">
+    <title>Login</title>
+</head>
+
+<body>
+
+    <section id="login">
+
+        <img src="./src/logo_horizonta_fundo_branco.png" id="logo-login">
+        <br><br><br><br>
+        <form action="./php/validar_login.php" method="post">
+
+            <h3>Bem-vindo</h3>
+            <br><br>
+
+
+            <label for="E-mail" class="label">E-mail</label><br>
+            <input type="text" name="login" placeholder="Example@gmail.com">
+
+            <br><br>
+
+
+            <label for="Senha" class="label">Senha</label><br>
+            <input type="password" name="senha" placeholder="********" id="senha">
+
+            <!--<button type="reset"><img src="./src/errado.png" alt=""></button> -->
+            <br><br><br><br><br>
+
+            <input type="submit" style="cursor:pointer;" value="Login" id="btn-login">
+
+        </form>
+
+    </section>
+
+
+
+
+
+
+
+
+
+
+
+
+</body>
+
+</html>
