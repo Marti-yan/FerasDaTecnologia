@@ -4,7 +4,7 @@ link do github: <a href="https://github.com/Marti-yan/FerasDaTecnologia/tree/mai
 <h2>principais erros{<br></h2>
 <h3> 
     não esta responsivo; 
-    sou horrivel em CSS então tem bastante gambiarra;
+    
 }
 </h3>
 
