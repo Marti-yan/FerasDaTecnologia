@@ -13,7 +13,8 @@
 
     DDD: <input type="text" name='ddd'> <br>
     telefone: <input type="text" name='telefone' maxlength="9"> <br>
-    genero: <input type="text" name='genero'> <br>
+    <input type="radio" name='genero' value="M"> Masculino<br>
+    <input type="radio" name='genero' value="F"> Feminino<br>
 
     <input type="submit" value="enviar">
     </form>
