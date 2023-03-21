@@ -11,11 +11,12 @@ body{
 section{
     background-color:rgba(0, 0, 0, 0.521);
     box-shadow: 0px 0px 14px 8px rgba(255, 255, 255, 0.585);
-    width: 290px;
-    margin: 0 auto;
+    width: 300px;
+    margin: 35px auto;
     border-radius:10px;
     color: #fff;
     padding:0 10px;
+    
 }
 #conta{
 color:rgb(208, 208, 208);
